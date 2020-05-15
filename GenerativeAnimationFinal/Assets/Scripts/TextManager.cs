@@ -9,11 +9,11 @@ public class TextManager : MonoBehaviour
     [SerializeField] private GameObject upArrow;
     [SerializeField] private GameObject downArrow;
     private int currentOptionIndex = 0;
-    [SerializeField] private int myPanelIndex;
+    [SerializeField] public int myPanelIndex;
     private Text text;
     [SerializeField] private Text responseText;
     [SerializeField] private string[] responseTexts;
-    private GameController ctrl;
+    public GameController ctrl;
 
     private void Start() {
         text = this.gameObject.GetComponent<Text>();
@@ -29,7 +29,6 @@ public class TextManager : MonoBehaviour
         }
     }
 
-    // TODO: ENSURE CAN ONLY CHANGE TEXT OPTIONS IF UR CURRENTLY ON THAT PANEL
     private void MoveTextOptionNext() {
         if (currentOptionIndex + 1 < textOptions.Length) {
             currentOptionIndex++;

@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BigChoice.cs" />
     <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Demonstration.cs" />
     <Compile Include="Assets\Scripts\FixedInterpolation\InterpolatedTransform.cs" />
