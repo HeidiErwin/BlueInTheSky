@@ -12,7 +12,9 @@ public class GameController : MonoBehaviour
 
     private void Start() {
         for(int i = 1; i < panelAnimations.Length; i++) {
-            panelAnimations[i].enabled = false;
+            if (panelAnimations[i] != null) {
+                panelAnimations[i].enabled = false;
+            }
         }
     }
 
@@ -27,6 +29,10 @@ public class GameController : MonoBehaviour
             currentPanelIndex--;
             cam.MoveToPanel(panels[currentPanelIndex + 1], panels[currentPanelIndex]);
             StartPanelAnimations(currentPanelIndex);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
         }
     }
 

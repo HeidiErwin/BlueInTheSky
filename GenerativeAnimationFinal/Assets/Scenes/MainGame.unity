@@ -952,7 +952,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Other Character Response 1
+  m_Text: fix text
 --- !u!222 &82572694
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1655,8 +1655,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177713483}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1, y: -0.4, z: -1.97}
-  m_LocalScale: {x: -0.18325, y: 0.18325, z: 0.733}
+  m_LocalPosition: {x: -1.201, y: -0.114, z: -1.97}
+  m_LocalScale: {x: -0.21055426, y: 0.21055426, z: 0.842217}
   m_Children: []
   m_Father: {fileID: 1957322500}
   m_RootOrder: 0
@@ -5321,8 +5321,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599329770}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.48, y: -0.4, z: -1.84}
-  m_LocalScale: {x: -0.18325, y: 0.18325, z: 0.733}
+  m_LocalPosition: {x: -1.239, y: -0.057, z: -1.84}
+  m_LocalScale: {x: -0.21605174, y: 0.21605174, z: 0.86420697}
   m_Children: []
   m_Father: {fileID: 2088372831}
   m_RootOrder: 1
@@ -7495,8 +7495,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 210, y: -149}
-  m_SizeDelta: {x: 170.3, y: 135.8}
+  m_AnchoredPosition: {x: 261.57, y: -171.18}
+  m_SizeDelta: {x: 70.9, y: 57.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &875353886
 MonoBehaviour:
@@ -7531,7 +7531,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: <b>for the blue in the sky</b>
+  m_Text: <b>fin</b>
 --- !u!222 &875353887
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10671,7 +10671,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Other Character Response 1
+  m_Text: kids born today...
 --- !u!222 &1367951123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12612,6 +12612,7 @@ MonoBehaviour:
   - Yeah... me too.
   upArrow: {fileID: 1238129796}
   downArrow: {fileID: 1229040094}
+  myPanelIndex: 10
   responseText: {fileID: 0}
   responseTexts:
   - Nah, I'm sure others would, too.
@@ -13305,14 +13306,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textOptions:
-  - funny joke about frogs
-  - sad truth of life
+  - second joke option 1
+  - second joke option 2
   upArrow: {fileID: 657779016}
   downArrow: {fileID: 260888559}
+  myPanelIndex: 13
   responseText: {fileID: 168953315}
   responseTexts:
-  - haha <b>toad</b>ally
-  - the French <b>eat <i>80 MILLION</i></b> frogs a year?!
+  - joke 2 haha
+  - joke 2 oh no
 --- !u!114 &1892168833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13346,7 +13348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Character Says Option 1
+  m_Text: second joke option 1
 --- !u!222 &1892168834
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13821,6 +13823,7 @@ MonoBehaviour:
   - sad truth of life
   upArrow: {fileID: 934263730}
   downArrow: {fileID: 472285231}
+  myPanelIndex: 4
   responseText: {fileID: 1245481793}
   responseTexts:
   - haha <b>toad</b>ally
@@ -14695,14 +14698,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textOptions:
-  - funny joke about frogs
-  - sad truth of life
+  - final thought 1
+  - final thought 2
   upArrow: {fileID: 791923569}
   downArrow: {fileID: 1499810970}
-  responseText: {fileID: 168953315}
+  myPanelIndex: 30
+  responseText: {fileID: 82572693}
   responseTexts:
-  - haha <b>toad</b>ally
-  - the French <b>eat <i>80 MILLION</i></b> frogs a year?!
+  - final response 1
+  - final response 2
 --- !u!114 &2064077263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14736,7 +14740,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Character Says Option 1
+  m_Text: final thoughts
 --- !u!222 &2064077264
 CanvasRenderer:
   m_ObjectHideFlags: 0

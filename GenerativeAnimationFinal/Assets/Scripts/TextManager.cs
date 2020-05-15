@@ -9,19 +9,22 @@ public class TextManager : MonoBehaviour
     [SerializeField] private GameObject upArrow;
     [SerializeField] private GameObject downArrow;
     private int currentOptionIndex = 0;
+    [SerializeField] private int myPanelIndex;
     private Text text;
     [SerializeField] private Text responseText;
     [SerializeField] private string[] responseTexts;
+    private GameController ctrl;
 
     private void Start() {
         text = this.gameObject.GetComponent<Text>();
         text.text = textOptions[0];
+        ctrl = GameObject.Find("GameController").GetComponent<GameController>();
     }
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.DownArrow)) {
+        if (Input.GetKeyDown(KeyCode.DownArrow) && ctrl.currentPanelIndex == myPanelIndex) {
             MoveTextOptionNext();
-        } else if (Input.GetKeyDown(KeyCode.UpArrow)) {
+        } else if (Input.GetKeyDown(KeyCode.UpArrow) && ctrl.currentPanelIndex == myPanelIndex) {
             MoveTextOptionPrev();
         }
     }
